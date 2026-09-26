@@ -58,3 +58,9 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+
+button.addEventListener('click', () => {
+  counter--; // Subtrai 1 ao valor atual
+  button.innerHTML = `count is ${counter}`;
+  document.title = `Contador: ${counter}`; 
+});
