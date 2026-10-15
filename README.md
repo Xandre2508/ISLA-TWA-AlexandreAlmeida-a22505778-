@@ -10,7 +10,5 @@ git version 2.55.0.windows.5
 npm -v 
 11.19.0
 
-AI neste Proijeto 
-    Claude
-    Gemini 
+Neste Projeto está a ser usado o Gemini e o Claude
     
